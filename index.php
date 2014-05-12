@@ -1,5 +1,6 @@
 <?php
 $name = $_POST['user'];
+print_r($_POST)
 ?>
 <html>
 <head>
