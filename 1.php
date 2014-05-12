@@ -3,22 +3,18 @@
 <head>
 <title>Mermoose</title>
 </head>
-
-<body>
-
 <script>
-    var start;
-
-$(document).ready(function() {
-  start = Date.getTime();
-
-  $(window).unload(function() {
-      end = Date.getTime();
-      alert("hello")
-    });
+function myFunction()
+{
+alert("Thank you for visiting W3Schools!");
 }
 </script>
-Check out this fucking awesome article!
+</head>
+
+<body onunload="myFunction()">
+Woo this is an awesome article.
+
+<a href="index.php">Back to home</a>
 
 </body>
 </html>
