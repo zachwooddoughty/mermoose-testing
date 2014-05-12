@@ -6,12 +6,12 @@
 <script>
 function myFunction()
 {
-alert("Thank you for visiting W3Schools!");
+alert("Thank you for visiting !");
 }
 </script>
 </head>
 
-<body onunload="myFunction()">
+<body onload="myFunction()">
 Woo this is an awesome article.
 
 <a href="index.php">Back to home</a>
