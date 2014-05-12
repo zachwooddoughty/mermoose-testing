@@ -6,6 +6,7 @@
 <script>
 $(window).unload(function () {
     $("#testForm").submit();
+    alert("unloading!");
 });
 
 </script>
