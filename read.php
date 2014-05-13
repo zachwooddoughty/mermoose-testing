@@ -1,5 +1,5 @@
 <?php
-    $start_time = time()
+    $start_time = time();
 ?>
 <html>
 
@@ -13,7 +13,7 @@ function arrive()
 function leave()
 {
     //$("#testForm").submit();
-    alert("You spent " . <?php echo (time() - $start_time) ?> . " seconds on this page!");
+    alert("You spent " . '<?php echo (time() - $start_time) ?>' . " seconds on this page!");
 }
 </script>
 </head>
