@@ -16,7 +16,7 @@ function leave()
 </script>
 </head>
 
-<body onload="arrive()", onunload="leave()">
+<body onload="arrive()", onbeforeunload="leave()">
 <!--<form name="myForm" id="testForm" method="POST" action="index.php">
 UserName: <input type="text" name="user" value="test" /> <br/>
 Password: <input type="password" name="password" value="test"/> <br/>
