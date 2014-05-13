@@ -6,6 +6,7 @@
 <head>
 <title>Mermoose</title>
 <script>
+var start_time = new Date().getTime();
 function arrive()
 {
     alert("Hello!");
@@ -13,7 +14,10 @@ function arrive()
 function leave()
 {
     //$("#testForm").submit();
-    alert("You spent <?php echo (time() - $start_time) ?> seconds on this page!");
+    var str1 = "You spent ";
+    var str2 = " seconds on this page!";
+    var time = new Date().getTime() - start_time;
+    alert(str1.concat(time, str2);
 }
 </script>
 </head>
