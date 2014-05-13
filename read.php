@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+<?php
+    $start_time = time()
+?>
 <html>
 
 <head>
@@ -11,7 +13,7 @@ function arrive()
 function leave()
 {
     //$("#testForm").submit();
-    alert("Thank you for visiting Mermoose!");
+    alert("You spent " . <?php echo (time() - $start_time) ?> . " seconds on this page!");
 }
 </script>
 </head>
