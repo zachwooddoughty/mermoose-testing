@@ -1,17 +1,22 @@
+<!DOCTYPE html>
 <html>
 
 <head>
 <title>Mermoose</title>
 <script>
+function arrive()
+{
+    alert("Hello!");
+}
 function leave()
 {
-$("#testForm").submit();
-alert("Thank you for visiting Mermoose!");
+    //$("#testForm").submit();
+    alert("Thank you for visiting Mermoose!");
 }
 </script>
 </head>
 
-<body onunload="leave()">
+<body onload="arrive()", onunload="leave()">
 <!--<form name="myForm" id="testForm" method="POST" action="index.php">
 UserName: <input type="text" name="user" value="test" /> <br/>
 Password: <input type="password" name="password" value="test"/> <br/>
