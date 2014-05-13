@@ -17,7 +17,7 @@ function leave()
     var str1 = "You spent ";
     var str2 = " seconds on this page!";
     var time = new Date().getTime() - start_time;
-    alert(str1.concat(time, str2);
+    alert(str1.concat(time, str2));
 }
 </script>
 </head>
