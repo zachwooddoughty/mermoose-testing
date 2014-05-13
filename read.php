@@ -4,6 +4,10 @@
 <title>Mermoose</title>
 <script>
 var start_time = new Date().getTime();
+function arrive()
+{
+    document.myForm.style.display = 'none';
+}
 function leave()
 {
     var str1 = "You spent ";
@@ -21,8 +25,8 @@ function leave()
 </script>
 </head>
 
-<body onbeforeunload="leave()">
-<form name="myForm" id="testForm" method="POST" action="index.php">
+<body onload="arrive()" onbeforeunload="leave()">
+<form name="myForm" method="POST" action="index.php">
     <input type="text" name="time_input" id="time_input"/>
 </form>
 
