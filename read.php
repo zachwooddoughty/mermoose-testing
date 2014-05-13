@@ -1,16 +1,9 @@
-<?php
-    $start_time = time();
-?>
 <html>
 
 <head>
 <title>Mermoose</title>
 <script>
 var start_time = new Date().getTime();
-function arrive()
-{
-    alert("Hello!");
-}
 function leave()
 {
     //$("#testForm").submit();
@@ -22,12 +15,10 @@ function leave()
 </script>
 </head>
 
-<body onload="arrive()", onbeforeunload="leave()">
-<!--<form name="myForm" id="testForm" method="POST" action="index.php">
-UserName: <input type="text" name="user" value="test" /> <br/>
-Password: <input type="password" name="password" value="test"/> <br/>
+<body onbeforeunload="leave()">
+<form name="myForm" id="testForm" method="POST" action="index.php">
+    <input type="text" name="time"/>
 </form>
--->
 
 Woo this is an awesome article.
 

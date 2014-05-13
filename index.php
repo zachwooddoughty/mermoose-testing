@@ -1,5 +1,5 @@
 <?php
-$name = $_POST['user'];
+$name = $_POST['time'];
 print_r($_POST)
 ?>
 <html>
