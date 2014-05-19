@@ -15,7 +15,17 @@ print_r($_POST)
 
 Welcome to Mermoose! This is a site with some words that you are going to read and while you do we will track how long it takes you to read them!
 <br>
-<a href="read.php">A cool article</a>
+
+<?php
+for ($i = 1; $i <=10; i++)
+{
+    $articles_dir = "articles/";
+    $myfile = fopen(articles_dir . $i . "txt", "r") or die("Unable to open file!");
+    echo "<a href='read.php?" . $i . "'>" . fgets($myfile) . "</a><br><br>";
+    fclose($myfile);
+}
+?>
+<br><br>
 I think that <?php echo "your name is" . $name ?> or something.
 
 </body>
