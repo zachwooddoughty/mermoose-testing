@@ -25,7 +25,7 @@ for ($i = 1; $i <=10; $i++)
 {
     $articles_dir = "articles/";
     $myfile = fopen($articles_dir . $i . ".txt", "r") or die("Unable to open file!");
-    echo "<a href='read.php?id=" . $i . "'>" . fgets($myfile) . "</a><br><br>";
+    echo "<a href='summary.php?id=" . $i . "'>" . fgets($myfile) . "</a><br><br>";
     fclose($myfile);
 }
 ?>
