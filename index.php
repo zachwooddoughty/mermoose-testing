@@ -1,7 +1,3 @@
-<?php
-$name = $_POST['time'];
-print_r($_POST)
-?>
 <html>
 <head>
 <title>Mermoose</title>
@@ -12,6 +8,17 @@ print_r($_POST)
 </script>
 
 <body>
+
+Welcome to Mermoose!
+<br>
+
+<?php
+$time = $_POST['time'];
+if (!is_null($time))
+{
+    echo "You spent " . $time . " milliseconds on that last article!";
+}
+?>
 
 <?php
 for ($i = 1; $i <=10; $i++)

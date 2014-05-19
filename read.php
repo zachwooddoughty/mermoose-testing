@@ -27,6 +27,7 @@ function leave()
 </form>
 
 <a href="index.php">Back to home</a>
+<br><br>
 
 <?php
 echo $_GET["id"];
@@ -38,6 +39,7 @@ while(!feof($myfile)) {
 fclose($myfile);
 ?>
 
+<br><br>
 <a href="index.php">Back to home</a>
 
 </body>
