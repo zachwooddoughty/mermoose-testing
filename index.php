@@ -20,7 +20,7 @@ Welcome to Mermoose! This is a site with some words that you are going to read a
 for ($i = 1; $i <=10; $i++)
 {
     $articles_dir = "articles/";
-    $myfile = fopen(articles_dir . $i . "txt", "r") or die("Unable to open file!");
+    $myfile = fopen($articles_dir . $i . ".txt", "r") or die("Unable to open file!");
     echo "<a href='read.php?" . $i . "'>" . fgets($myfile) . "</a><br><br>";
     fclose($myfile);
 }
