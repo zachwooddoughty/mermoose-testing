@@ -6,7 +6,9 @@
 
 <body>
 
-<a href="read.php?id="<?php echo $_GET["id"]; ?> >Read Full Article</a>
+<?php
+echo "<a href='read.php?id=" . $_GET["id"] . "'> Read Full Article</a><br><br>";
+?>
 <br><br>
 
 <?php
