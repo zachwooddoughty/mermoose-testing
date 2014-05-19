@@ -26,7 +26,12 @@ function leave()
     <input type="text" name="time_input" id="time_input"/>
 </form>
 
-Woo this is an awesome article.
+<a href="index.php">Back to home</a>
+
+<?php
+$article = "articles/" . $_GET["id"] . ".txt";
+echo readfile($article)
+?>
 
 <a href="index.php">Back to home</a>
 

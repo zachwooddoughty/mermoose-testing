@@ -13,9 +13,6 @@ print_r($_POST)
 
 <body>
 
-Welcome to Mermoose! This is a site with some words that you are going to read and while you do we will track how long it takes you to read them!
-<br>
-
 <?php
 for ($i = 1; $i <=10; $i++)
 {
@@ -25,8 +22,5 @@ for ($i = 1; $i <=10; $i++)
     fclose($myfile);
 }
 ?>
-<br><br>
-I think that <?php echo "your name is" . $name ?> or something.
-
 </body>
 </html>
