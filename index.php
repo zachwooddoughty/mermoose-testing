@@ -13,12 +13,10 @@ Welcome to Mermoose!
 <br>
 
 <?php
-print_r($_POST);
-echo $_POST['time_input'];
 $time = $_POST['time_input'];
 if (!empty($time))
 {
-    echo "You spent " . $time . " milliseconds on that last article!";
+    echo "<br><br>You spent " . $time . " milliseconds on that last article!i<br><br>";
 }
 ?>
 
