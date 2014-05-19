@@ -17,7 +17,7 @@ Welcome to Mermoose! This is a site with some words that you are going to read a
 <br>
 
 <?php
-for ($i = 1; $i <=10; i++)
+for ($i = 1; $i <=10; $i++)
 {
     $articles_dir = "articles/";
     $myfile = fopen(articles_dir . $i . "txt", "r") or die("Unable to open file!");
