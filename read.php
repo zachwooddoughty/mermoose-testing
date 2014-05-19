@@ -29,8 +29,9 @@ function leave()
 <a href="index.php">Back to home</a>
 
 <?php
+echo $_GET["id"];
 $article = "articles/" . $_GET["id"] . ".txt";
-echo readfile($article)
+echo readfile($article);
 ?>
 
 <a href="index.php">Back to home</a>
