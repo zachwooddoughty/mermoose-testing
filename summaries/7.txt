@@ -1,8 +1,5 @@
-10 Ingenious Hacks That Helped Facebook Take Over the Internet 
-
-
-Facebook’s first ten years changed the world in more ways than you think.
 But these are merely the obvious innovations — the innovations you see every time you visit Facebook on your phone, tablet, or PC.
+As its social network expanded to over 1.2 billion people across the globe, Facebook engineers were forced to create new software, new machines, and even new kinds of data centers capable of efficiently serving such an enormous number of souls.
+But unlike Google and Amazon, Facebook resolved to freely share many of its innovations with the world at large, open sourcing not only software but hardware designs in an effort to help the next generation of web companies tackle a future where online services will only continue to grow.
+There were also selfish reasons for Facebook sharing all this technology.
 Hadoop, the open source tool that has redefined data analysis across the net, is another major Facebook success story.
-In its early days, for example, Hadoop was plagued by a rather large flaw that delayed its push into everyday businesses: a single number-crunching job could take down an entire cluster of servers.
-Behind the scenes, inside the massive data centers that power this worldwide social network, you’ll find all sorts of other technologies that have changed our world in very different ways — and perhaps bigger ways.
